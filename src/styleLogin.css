@@ -45,6 +45,10 @@ input{
 .login input::placeholder{
     color:333;
 }
+/* links */
+.login a{
+    color: blue;
+}
 /* buttom */
 .submit{
     border-radius: 10px;

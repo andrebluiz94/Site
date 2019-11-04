@@ -1,0 +1,35 @@
+.container{
+    margin: 20px auto 150px;
+    max-width: 950px;
+    margin: 50px auto;
+    border:4px solid #EDEDED;
+}
+.container h1{
+    margin: 10px 10px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 40px 0;
+}
+.form input{
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    height: 20px;
+    border:1px solid #071726;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgba(0, 0,0, 0.25);
+}
+.form input:nth-child(4){
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background: #399F4C;
+    border: 2px solid #55CD6C;
+    font-weight: bolder;
+    box-shadow: 4px 4px 8px rgba(0, 0,0, 0.25);
+}
