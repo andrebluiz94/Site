@@ -73,12 +73,23 @@
     width: 350px;
 }
 .submit{
+    font-weight: bold;
     height: 40px;
     background: #399F4C;
     border:1px solid #55CD6C;
     box-shadow: 4px 4px 8px #0717262f;
+
 }
-@media(max-width: 414px){
+@media(max-width: 1000px){
+    .barra{
+        width: 290px;
+    }
+    .sexo{
+        width: 315px;
+    }
+}
+
+@media(max-width: 480px){
 
     .barra{
         width: 290px;
