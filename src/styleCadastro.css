@@ -1,0 +1,89 @@
+
+.container{
+    max-width: 1000px;
+    margin: 20px auto 150px;
+    border:4px solid #EDEDED;
+}
+
+.form{
+     display: flex;
+    flex-wrap: wrap;
+    padding: 20px; 
+    
+}
+.barra{
+    margin:10px 5px;
+    width: 250px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid #071726;
+}
+
+.nome{
+    width: 350px;
+}
+.sobre{
+    width: 350px;
+}
+.email{
+    width: 735px;
+}
+.senha{
+    width: 350px;
+}
+.Csenha{
+    width: 350px;
+}
+.Dnascimento{
+    width: 350px;
+}
+.telefone{
+    width: 350px;
+}
+.cpf{
+    width: 350px;
+}
+.sexo{
+    width: 375px;
+    border-radius: 5px;
+    border:1px solid #071726;
+    margin-right: 10px;
+    align-self: center;
+}
+.form h2{
+    width: 700px;
+}
+.cep{
+    width: 350px;
+}
+.estado{
+    width: 350px;
+}
+.bairro{
+    width: 350px;
+}
+.cidade{
+    width: 350px;
+}
+.num{
+    width: 350px;
+}
+.comp{
+    width: 350px;
+}
+.submit{
+    height: 40px;
+    background: #399F4C;
+    border:1px solid #55CD6C;
+    box-shadow: 4px 4px 8px #0717262f;
+}
+@media(max-width: 414px){
+
+    .barra{
+        width: 290px;
+    }
+    .sexo{
+        width: 315px;
+    }
+}

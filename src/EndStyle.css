@@ -1,0 +1,75 @@
+.container{
+    max-width: 950px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap:wrap ;
+    border: 1px solid #ccc;
+    padding: 10px;
+;
+}
+
+.container > h1 {
+    width: 950px;
+}
+/*CONFIGURANDO O MENU PEDIDO  - -  MENU CONTA*/
+.menuConta{
+    width: 200px;
+    padding: 10px;
+   
+}
+.menuConta > li{
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: left; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3rem;
+    border-left: 1px solid #071726;
+}
+.menuConta img {
+    margin-bottom: -5px;
+}
+
+.menuConta  a{
+    color: #000;
+}
+
+/*MENU Endereço*/
+
+.pedido {
+    max-width: 650px; /*Alterar para max-width: */
+    margin: -60px 10px;
+   /* border-left: 1px solid #071726;*/
+    padding-left: 10px;
+    
+    
+}
+
+/* endereço */
+
+.selectEnd{
+ 
+    font-size: 0.9rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.selectEnd div{
+    border:1px solid #071726;
+    padding: 5px;
+    width: 250px;
+}
+
+
+.selectEnd div:nth-child(1){
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width:700px){
+    .pedido{
+        margin: 0 10px;
+    }
+}

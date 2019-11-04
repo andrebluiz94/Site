@@ -1,0 +1,113 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    max-width: 1366px;
+    display: flex;
+    background: #071726;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.header a{
+    Color:white;
+    font-size: 40px;
+    font-weight: 768;
+}
+.header a:hover{
+    color: #9CA4A6;
+    font-weight: 768;
+}
+.header div img{
+    padding: 0px 10px;
+    margin-right: 5px;
+}
+.header input{
+    width: 400px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 20px;
+    border:1px solid #333;
+    
+}
+.header input::placeholder{
+    color: #333;
+    padding: 10px;
+}
+.secao{
+    background: #333;
+}
+.secao ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+.secao a{
+  font-size: 1rem;  
+  padding: 12px;
+}
+.secao a:hover{
+    background: white;
+    color: #071726;
+}
+
+/* destaques */
+
+/*Footer */
+
+.footer{
+    margin:0 auto;
+    max-width: 1366px;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #071726;
+    align-items: stretch;
+}
+.footer > section{
+    margin: 10px;
+    min-height: 100px;
+}
+
+.footer > section h1{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.footer input{
+    margin: 0 10px;
+    min-width: 275px;
+    min-height: 35px;
+    border-radius: 10px;
+    color: #333;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+.footer p{
+    margin: 0 0 10px 10px;
+}
+
+.footer input::placeholder{
+    color:#333;
+    padding: 10px;
+}
+
+
+.footer span{
+    margin: 10px;
+    font-size: 1.5rem;
+}

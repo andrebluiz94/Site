@@ -1,0 +1,81 @@
+.container{
+    max-width: 950px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap:wrap ;
+    border: 1px solid #ccc;
+    padding: 10px;
+;
+}
+
+.container > h1 {
+    width: 950px;
+}
+/*CONFIGURANDO O MENU PEDIDO  - -  MENU CONTA*/
+.menuConta{
+    width: 200px;
+    padding: 10px;
+   
+}
+.menuConta > li{
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: left; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3rem;
+    border-left: 1px solid #071726;
+}
+.menuConta img {
+    margin-bottom: -5px;
+}
+
+.menuConta  a{
+    color: #000;
+}
+
+/*MENU PEDIDOS*/
+
+.pedido {
+    width: 650px; /*Alterar para max-width: */
+    margin: 0px 10px;
+   /* border-left: 1px solid #071726;*/
+    padding-left: 10px;
+}
+
+/*Lista de pedidos do clientes*/
+.listPedido{
+    background: #e9e8e8;
+    border-left:10px solid rgb(31, 173, 31) ;
+    margin-left: 50px;
+    padding-left:10px ;
+}
+
+.listPedido p{
+    font-size: 20px;
+
+}
+
+.listPedido h3{
+    font-size: 20px;
+}
+
+.listPedido span{
+    font-size: 15px;
+}
+
+/* ITENS DE PEDIDOS DOS CLIENTES*/
+.itensPedidos{
+    display: flex;
+    justify-content: space-between;
+}
+.itensPedidos  img{
+    margin-top: -50px;
+    margin-bottom: 10px;
+}
+
+.itensPedidos p{
+    margin-left: 80px;  
+}
+
+
+

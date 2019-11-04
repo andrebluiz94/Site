@@ -1,0 +1,72 @@
+.container{
+    max-width: 950px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap:wrap ;
+    border: 1px solid #ccc;
+    padding: 10px;
+;
+}
+
+.container > h1 {
+    width: 950px;
+}
+/*CONFIGURANDO O MENU PEDIDO  - -  MENU CONTA*/
+.menuConta{
+    width: 200px;
+    padding: 10px;
+   
+}
+.menuConta > li{
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: left; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3rem;
+    border-left: 1px solid #071726;
+}
+.menuConta img {
+    margin-bottom: -5px;
+}
+
+.menuConta  a{
+    color: #000;
+}
+
+/*MENU Endereço*/
+
+.editEnd {
+    max-width: 650px; /*Alterar para max-width: */
+    margin: 0px 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* endereço */
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    border-radius: 5px;
+    padding: 10px;
+    margin:2px;
+    border:1px solid #bbb;
+}
+
+.form input::placeholder{
+    color: #071726;
+}
+.form input:nth-child(11){
+    color: white;
+    background: #399F4C;
+    border: 1px solid #55CD6C;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.form input:nth-child(3){
+    width:200px;
+}
+.form input:nth-child(5){
+    width:200px;
+}
