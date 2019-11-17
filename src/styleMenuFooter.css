@@ -89,6 +89,7 @@ img{
 }
 
 .footer input{
+    padding: 10px;
     margin: 0 10px;
     min-width: 275px;
     min-height: 35px;
